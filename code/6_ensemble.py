@@ -1,4 +1,12 @@
-# coding: utf-8
+# -*- coding:utf-8 -*-
+
+#========================================================================
+# Author: doubleQ
+# File Name: 1_generate_candidate.py
+# Created Date: 2022-07-12
+# Description:
+# =======================================================================
+
 import pandas as pd
 from argparse import ArgumentParser
 from datetime import datetime
