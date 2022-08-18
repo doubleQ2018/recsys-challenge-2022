@@ -20,4 +20,4 @@ joinByChar() {
 }
 results=($(ls result/*_score.csv))
 results=`joinByChar ' ' "${results[@]}"`
-python -u 7_ensemble.py --files $results
+python -u 6_ensemble.py --files $results
